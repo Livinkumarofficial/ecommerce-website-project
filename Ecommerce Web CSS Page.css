@@ -9,13 +9,17 @@
  }
 
  #navbar{
+   /*
     position: sticky;
     top: 0;
-    left: 0;
-    z-index: 100;
+    z-index:1;
     padding: .5rem 5rem;
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, .5);
+    overflow: auto;
+    */
     background: black;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+
+
  }
 
  .navbar .navbar-brand{
@@ -161,3 +165,49 @@ section{
    color: white;
 }
 
+.rmbtn{
+   background-color:red; /* Green */
+  border: none;
+  color: white;
+  padding: 8px 10px;
+  border-radius: 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.footer1{
+   box-sizing: border-box;
+ width: 100%;
+   background-color: black;
+   color: white;
+   padding: 60px 80px;
+ }
+ .footer1 div{
+   padding: 10px;
+ }
+ .footer {
+  padding: 20px;
+  text-align: center;
+  background:black;
+  border-top: 1px solid rgb(161, 159, 159);
+ }
+
+ #top{
+   border: 1px solid white;
+   background-color: green;
+   color: white;
+   width: 60px;
+   padding: 5px;
+   float:right;
+   
+ }
+
+ 
+
+ #bg{
+   background-image: url(https://img.freepik.com/free-psd/shopping-vertical-background_23-2150409467.jpg?w=2000);
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}                                                                                                                                                                        
